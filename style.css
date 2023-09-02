@@ -68,6 +68,20 @@ body {
     margin: 0 auto;
 }
 
+.up-title {
+    font-size: 38px;
+    font-weight: 600;
+    font-family: 'sans-600', sans-serif;
+    color: var(--white);
+}
+
+.subtitle {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'sans-400', sans-serif;
+    color: var(--white);
+}
+
 .btn {
     background: var(--purple);
     color: var(--white);
@@ -399,7 +413,7 @@ body {
     padding: 80px 0;
 }
 
-.category .titles .site-title {
+.category .titles .up-title {
     font-size: 38px;
     font-weight: 600;
     font-family: 'sans-600', sans-serif;
@@ -635,6 +649,47 @@ body {
     font-family: 'mono-400', sans-serif;
 }
 
+/* works */
+.works .container {
+    margin: 80px auto;
+}
+
+.works .container h3 {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'sans-400', sans-serif;
+    padding: 10px 0 48px;
+    color: var(--white);
+}
+
+.works .container .wraper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.works .container .wraper .card {
+    width: 330px;
+    height: 430px;
+    background: var(--grey);
+    border-radius: 20px;
+    padding: 10px 30px 30px;
+    text-align: center;
+}
+
+.works .container .wraper .card .up-title {
+    font-size: 22px;
+    font-weight: 600;
+    padding: 20px 10px;
+}
+
+.works .container .wraper .card .subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    /* padding-bottom: 30px; */
+}
+
 /* Digest */
 .digest .container {
     background: var(--grey);
@@ -649,10 +704,9 @@ body {
 .digest .container .image-block {
     width: 425px;
     height: 310px;
-    /* object-fit: cover; */
 }
 
-.digest .container .image-block img{
+.digest .container .image-block img {
     width: 100%;
     height: 100%;
 }
@@ -661,7 +715,7 @@ body {
     width: 425px;
 }
 
-.digest .container .titles form{
+.digest .container .titles form {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -670,8 +724,8 @@ body {
     margin-top: 40px;
 }
 
-.digest .container .titles form input{
-    padding: 20px;  
+.digest .container .titles form input {
+    padding: 20px;
     border: 0;
     outline: 0;
     font-size: 16px;
@@ -680,7 +734,90 @@ body {
     background: none;
 }
 
-.digest .container .titles form .btn{
+.digest .container .titles form .btn {
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* footer */
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer .container .footer-item {
+    text-align: start;
+}
+
+.footer .container .footer-item .up-title {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'sans-600', sans-serif;
+    color: var(--white);
+    padding-bottom: 15px;
+}
+
+.footer .container .footer-item .subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'sans-400', sans-serif;
+    color: var(--text-color);
+    padding: 15px 0;
+}
+
+.footer .container .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .container .content a {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'sans-400', sans-serif;
+    color: var(--text-color);
+}
+
+.footer .container .footer-item .icon {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    padding-top: 10px;
+    font-size: 40px;
+
+}
+
+.footer .container .footer-item .icon a {
+    color: var(--text-color);
+}
+
+.footer .container .footer-item .icon {}
+
+
+.digest .container .content .footer-item form {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: var(--white);
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+
+.footer .container .content .footer-item form input {
+    padding: 20px;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--white);
+    background: none;
+}
+
+.digest .container .content .footer-item form .btn {
     padding: 20px 50px;
     display: flex;
     align-items: center;
