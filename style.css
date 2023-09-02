@@ -452,16 +452,16 @@ body {
 
 }
 
-.discover .container .titles .up-title{
+.discover .container .titles .up-title {
     font-size: 38px;
     font-weight: 600;
-    font-family: 'sans-600',sans-serif;
+    font-family: 'sans-600', sans-serif;
 }
 
-.discover .container .titles .subtitle{
+.discover .container .titles .subtitle {
     padding-top: 10px;
     font-size: 22px;
-    font-family: 'sans-400',sans-serif;
+    font-family: 'sans-400', sans-serif;
 }
 
 .discover .container .btn {
@@ -470,7 +470,7 @@ body {
     border: 2px solid var(--purple);
 }
 
-.discover .container .btn i{
+.discover .container .btn i {
     color: var(--purple);
     padding-right: 12px;
 }
@@ -552,4 +552,137 @@ body {
     font-size: 16px;
     font-family: 'mono-400', sans-serif;
     font-weight: 400;
+}
+
+/* mushroom */
+.mushroom {
+    background: url(img/mushroom\ background.png) no-repeat center / cover;
+}
+
+.mushroom .container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 360px 0 60px;
+}
+
+.mushroom .container .left .user {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 150px;
+    padding: 10px 20px;
+    gap: 12px;
+    background: var(--grey);
+    border-radius: 20px;
+
+}
+
+.mushroom .container .left .user p {
+    color: var(--white);
+    font-size: 16px;
+}
+
+.mushroom .container h2 {
+    font-size: 51px;
+    font-weight: 600;
+    font-family: 'sans-600', sans-serif;
+    line-height: 56px;
+    color: var(--white);
+    margin: 30px 0;
+}
+
+.mushroom .container .left .btn {
+    background: var(--white);
+    color: var(--grey);
+}
+
+.mushroom .container .left .btn i {
+    color: var(--purple);
+}
+
+.mushroom .container .right {
+    background: rgba(59, 59, 59, 0.5);
+    color: var(--white);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.mushroom .container .right h4 {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'mono-400', sans-serif;
+}
+
+.mushroom .container .right .timer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.mushroom .container .right .timer p {
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'mono-700', sans-serif;
+}
+
+.mushroom .container .right .timer .item span {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'mono-400', sans-serif;
+}
+
+/* Digest */
+.digest .container {
+    background: var(--grey);
+    padding: 60px;
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.digest .container .image-block {
+    width: 425px;
+    height: 310px;
+    /* object-fit: cover; */
+}
+
+.digest .container .image-block img{
+    width: 100%;
+    height: 100%;
+}
+
+.digest .container .titles {
+    width: 425px;
+}
+
+.digest .container .titles form{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: var(--white);
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.digest .container .titles form input{
+    padding: 20px;  
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--grey);
+    background: none;
+}
+
+.digest .container .titles form .btn{
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
