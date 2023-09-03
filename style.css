@@ -777,9 +777,6 @@ body {
     padding: 15px 0;
 }
 
-
-
-
 .footer .container .content {
     display: flex;
     justify-content: space-between;
@@ -840,6 +837,7 @@ body {
 
 .footer .container .footer-end .subtitle {
     border-top: 2px solid var(--purple);
+    padding: 20px;
     text-align: center;
     margin: 45px;
     color: var(--text-color);
