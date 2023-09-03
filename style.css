@@ -749,8 +749,16 @@ body {
     gap: 30px;
 }
 
-.footer .container .footer-item {
+/* footer-logo 1-2 */
+.footer .container .footer-item:nth-last-child(2) {
     text-align: start;
+    margin-right: 30px;
+}
+
+/* form */
+.footer .container .footer-item:nth-last-child(1) {
+    text-align: end;
+
 }
 
 .footer .container .footer-item .up-title {
@@ -769,9 +777,16 @@ body {
     padding: 15px 0;
 }
 
+
+
+
 .footer .container .content {
     display: flex;
     justify-content: space-between;
+}
+
+.footer .container .content .footer-item li {
+    padding: 10px 0;
 }
 
 .footer .container .content a {
@@ -823,7 +838,8 @@ body {
     justify-content: center;
 }
 
-.footer .container .footer-end .subtitle{
+.footer .container .footer-end .subtitle {
+    border-top: 2px solid var(--purple);
     text-align: center;
     margin: 45px;
     color: var(--text-color);
