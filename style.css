@@ -742,10 +742,11 @@ body {
 }
 
 /* footer */
-.footer .container {
+.footer .container .wraper {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
+    gap: 30px;
 }
 
 .footer .container .footer-item {
@@ -794,10 +795,8 @@ body {
     color: var(--text-color);
 }
 
-.footer .container .footer-item .icon {}
-
-
-.digest .container .content .footer-item form {
+.footer .container .content .footer-item form {
+    width: 420px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -813,13 +812,19 @@ body {
     outline: 0;
     font-size: 16px;
     font-weight: 400;
-    color: var(--white);
+    color: var(--grey);
     background: none;
 }
 
-.digest .container .content .footer-item form .btn {
+.footer .container .content .footer-item form .btn {
     padding: 20px 50px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.footer .container .footer-end .subtitle{
+    text-align: center;
+    margin: 45px;
+    color: var(--text-color);
 }
